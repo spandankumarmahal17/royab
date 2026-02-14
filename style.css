@@ -1,0 +1,817 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* for box 1*/
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 45px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("image/brandhaveli.png");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+/* for box 2*/
+
+.address1{
+    font-size: 0.7rem;
+    color: rgb(222, 175, 158);
+    margin-left: 15px;
+}
+
+.address2{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.icon{
+    display: flex;
+}
+
+/*for box 3*/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(204, 107, 201);
+}
+
+.search-select{
+    background-color: #e2cece;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/*box 4 */
+
+/*
+.nav-lang{
+    display: flex;
+}*/
+
+.lang{
+    background-color: black;
+    color: white;
+}
+
+.lang-logo{
+    height: 10px;
+    width: 20px;
+}
+
+.f-logo{
+    background-image: url(image/flag.jpeg);
+    background-size: cover;
+    height: 10px;
+    width: 100%;
+    margin-left: 20px;
+}  
+
+/* box 5 */
+
+span{
+    font-size: 0.8rem;
+}
+
+.nav-1st{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* for box 6*/
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* pannel*/
+
+.pannel{
+    height: 40px;
+    background-color: rgb(71, 41, 71);
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pannel-ob p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.pannel-ob{
+    width: 75%;
+    font-size: 0.85rem;
+}
+
+.pannel-deal{
+    font-size: 0.9;
+    font-weight: 700;
+}
+
+/* main-section*/
+
+.main-section{
+    height: 300px;
+    width: 95%;
+    margin-left: 40px;
+    display: flex;
+    background-color: #1e81b0;
+}
+
+.fst{
+    height: 300px;
+    width: 600px;
+    background-image: url("image/harry.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.snd{
+    height: 300px;
+    width: 600px;
+    background-image: url("image/gucci.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
+
+.p-one{
+    margin-left: 550px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: xx-large;
+    transform:rotate(-30deg);
+    font-stretch: extra-expanded;
+}
+
+.p-two{
+    margin-left: 350px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: xx-large;
+    transform:rotate(-30deg);
+    font-stretch: extra-expanded;
+}
+
+.msg{
+    height: 20px;
+    width: 95%;
+    background-color: #cce7e8;
+    color: black;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.msg a{
+    color: #007185;
+}
+
+/* for shoping section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(234, 246, 242);
+    margin-top: 1rem;
+}
+
+.box{
+    height:300px;
+    width:23%;
+    background-color: white;
+}
+
+.cross{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/cross.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1 a{
+    color: #007185;
+}
+
+.lycra{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/lycra.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2 a{
+    color: #007185;
+}
+
+.burberry{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/burberry.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box3 a{
+    color: #007185;
+}
+
+.ck{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/ck.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4 a{
+    color: #007185;
+}
+
+/* for shoping section2 */
+
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(234, 246, 242);
+    margin-top: 1rem;
+}
+
+.box{
+    height:300px;
+    width:23%;
+    background-color: white;
+}
+
+.harry{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/harry.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1 a{
+    color: #007185;
+}
+
+.gucci{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/gucci.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2 a{
+    color: #007185;
+}
+
+.ns-shorts{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/ns-shorts.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box3 a{
+    color: #007185;
+}
+
+.rr{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/rare-rabit.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4 a{
+    color: #007185;
+}
+
+/* for section 3*/
+
+
+.shop-section3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(234, 246, 242);
+    margin-top: 1rem;
+}
+
+.box{
+    height:300px;
+    width:23%;
+    background-color: white;
+}
+
+.trac{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/trac.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1 a{
+    color: #007185;
+}
+
+.zara{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/zara.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box2 a{
+    color: #007185;
+}
+
+.tomy{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/tomy.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box3 a{
+    color: #007185;
+}
+
+.jersye{
+    height: 250px;
+    width: 300px;
+    background-image: url("image/babul.jpg");
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box4 a{
+    color: #007185;
+}
+
+.sing{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    
+}
+
+.sing p{
+    font-size: 0.85rem;
+}
+
+.a-msg{
+    color: #007185;
+}
+
+.s-sign{
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.t-msg{
+    display: flex;
+    justify-content: center;
+}
+
+.b-msg{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom{
+    height: 38px;
+    width: 100%;
+}
+
+button{
+    height: 38px;
+    width: 200px;
+    background-color: rgb(255, 170, 0);
+    border-radius: 5px;
+    margin-left: 660px;
+}
+
+button:hover{
+    border: solid greenyellow;
+}
+
+.bottom p{
+    font-size: 1.45rem;
+}
+
+/* for footer*/
+/* for foot-pannel1*/
+
+.foot-pannel1{
+    height: 50px;
+    background-color: rgb(85, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+
+/* for foot-pannel2*/
+
+.foot-pannel2{
+    height: 300px;
+    background-color: #262258;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin: 10px;
+}
+ul a{
+    display: block;
+    margin: 10px;
+    font-size: 0.9rem;
+}
+
+ul p{
+    font-weight: 900;
+}
+
+.foot-pannel3{
+    background-color: #2f3435;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("image/ibrandhaveli.png");
+    background-size: cover;
+    height: 45px;
+    width: 100px;
+}
+
+.foot-pannel4{
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 20px;
+}
+
+.copyright{
+    padding-top:5px;
+}
+
+/* Global styles */
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 45px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("image/ibrandhaveli.png");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+
+
+
+/* For responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .nav-logo {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .nav-search select, .nav-search input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .search-select {
+        background-color: #e2cece;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 30%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .search-input {
+        width: 70%;
+        font-size: 1.2rem;
+        border: none;
+        padding: 5px;
+    }
+
+    .search-icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        background-color: antiquewhite;
+        color: black;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    /* Language and Sign-in */
+    .nav-lang {
+        margin-bottom: 10px;
+    }
+
+    .lang-logo {
+        width: 25%;
+        height: 10px;
+    }
+
+    /* Main Section */
+    .main-section {
+        flex-direction: column;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .fst, .snd {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 0;
+    }
+
+    .p-one, .p-two {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+
+    /* Shop Sections */
+    .shop-section, .shop-section2, .shop-section3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .cross, .lycra, .burberry, .ck, .harry, .gucci, .ns-shorts, .rr, .trac, .zara, .tomy, .jersye {
+        height: 200px;
+        background-size: cover;
+        margin: 10px 0;
+    }
+
+    .box a {
+        color: #007185;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+
+    /* Sign-In Section */
+    .sing {
+        padding: 20px;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(255, 170, 0);
+        border-radius: 5px;
+        margin-left: 0;
+    }
+
+    /* Footer Adjustments */
+    .foot-pannel1, .foot-pannel2, .foot-pannel3, .foot-pannel4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-pannel2 ul {
+        display: block;
+        text-align: center;
+    }
+
+    .foot-pannel2 ul a {
+        margin-bottom: 5px;
+        font-size: 0.85rem;
+    }
+
+    .foot-pannel4 .pages {
+        padding-top: 10px;
+    }
+}
+
+/* Default for larger screens, no changes needed */
+.foot-pannel1 {
+    height: 50px;
+    background-color: rgb(85, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.foot-pannel2 {
+    height: 300px;
+    background-color: #262258;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 10px;
+}
+
+ul a {
+    display: block;
+    margin: 10px;
+    font-size: 0.9rem;
+}
+
+ul p {
+    font-weight: 900;
+}
+
+.foot-pannel3 {
+    background-color: #2f3435;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("image/brandhaveli.png");
+    background-size: cover;
+    height: 45px;
+    width: 100px;
+}
+
+.foot-pannel4 {
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 20px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
+
